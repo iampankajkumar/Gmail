@@ -37,7 +37,7 @@ public class SendBulkMail {
 		Session session = Session.getInstance(props, new javax.mail.Authenticator() {
 			@Override
 			protected PasswordAuthentication getPasswordAuthentication() {
-				return new PasswordAuthentication("pankajkumar.01869@gmail.com", "email.com");
+				return new PasswordAuthentication("your gmail address", "your gmail password");
 			}
 		});
 
